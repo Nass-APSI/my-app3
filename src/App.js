@@ -117,7 +117,7 @@ function ChickenBananaMinesweeper() {
         alignItems: 'center',
         justifyContent: 'center',
         minHeight: '100vh',
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: 'linear-gradient(135deg, #fcb4b4 0%, #47bfee 100%)',
         fontFamily: 'Arial, sans-serif',
         color: 'white',
       }}>
@@ -189,7 +189,7 @@ function ChickenBananaMinesweeper() {
       alignItems: 'center',
       justifyContent: 'center',
       minHeight: '100vh',
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      background: 'linear-gradient(135deg, #fcb4b4 0%, #47bfee 100%)',
       fontFamily: 'Arial, sans-serif',
       color: 'white',
       padding: '20px',
@@ -225,7 +225,7 @@ function ChickenBananaMinesweeper() {
 
         {gameState === 'gameOver' && (
           <div style={{
-            background: winner === playerType ? 'rgba(76, 175, 80, 0.2)' : 'rgba(244, 67, 54, 0.2)',
+            background: winner === playerType ? 'rgba(255, 38, 208, 0.67)' : 'rgba(190, 40, 40, 0.57)',
             border: `2px solid ${winner === playerType ? '#4CAF50' : '#f44336'}`,
             borderRadius: '10px',
             padding: '15px',
@@ -257,7 +257,7 @@ function ChickenBananaMinesweeper() {
             fontSize: '1.1rem',
             borderRadius: '10px',
             border: 'none',
-            background: 'linear-gradient(45deg, #48cae4, #023e8a)',
+            background: 'linear-gradient(45deg,#ff6b6b, #ee5a24, #feca57, #ff9ff3 )',
             color: 'white',
             cursor: 'pointer',
             transition: 'transform 0.2s',
