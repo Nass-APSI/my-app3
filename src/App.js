@@ -257,7 +257,7 @@ function ChickenBananaMinesweeper() {
             fontSize: '1.1rem',
             borderRadius: '10px',
             border: 'none',
-            background: 'linear-gradient(45deg,#ff6b6b, #ee5a24, #feca57, #ff9ff3 )',
+            background: 'linear-gradient(45deg,#ff6b6b,rgb(240, 157, 127),rgb(253, 219, 144), #ff9ff3 )',
             color: 'white',
             cursor: 'pointer',
             transition: 'transform 0.2s',
